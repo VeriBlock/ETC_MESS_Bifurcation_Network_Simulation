@@ -48,7 +48,7 @@ Of particular interest are:
 * Whether legitimate mining is fully decentralized (any legitimate node can origin a block), or simulates pool behavior (blocks origined at 3-most connected nodes)
 * How much hashrate the attacker has relative to the legitimate network
 
-Additionally if you have a specific network topography you want to test, you can replace the legitimate-to-legitimate and attacker-to-legitimate peering with another peering scheme.
+Additionally if you have a specific network topology you want to test, you can replace the legitimate-to-legitimate and attacker-to-legitimate peering with another peering scheme.
 
 ## Known Bugs
 Occasionally, an edge-case in how the simulation handles message propagation will result in an infinite loop, causing the simulation to freeze. This has nothing to do with the attack's actual viability, just a simulation edge-case. To proceed, just stop and re-run the simulation.
